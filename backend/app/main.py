@@ -1,16 +1,24 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.api.survey import router as survey_router  # survey routes
+from app.api import personas  # personas routes
 
-app = FastAPI()
+app = FastAPI(title="SimSurvey Backend")
 
-# Enable CORS for all origins (you can restrict this in production)
+# Include the personas routes
+app.include_router(personas.router, prefix="/api", tags=["personas"])
+
+# Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change this to specific origins in production
+    allow_origins=["*"],  # TODO: restrict in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include the survey routes
+app.include_router(survey_router, prefix="/survey", tags=["survey"])
 
 @app.get("/health")
 async def health_check():

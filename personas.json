@@ -1,0 +1,856 @@
+[
+  {
+    "name": "Gen Z Gamer",
+    "description": "A young, tech-savvy individual who enjoys fast-paced digital experiences.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 9,
+      "tech_savviness": 10,
+      "peer_influence": 8,
+      "ad_trust": 4,
+      "risk_appetite": 6,
+      "social_class": 5,
+      "age_attitude": 9
+    }
+  },
+  {
+    "name": "Suburban Mom",
+    "description": "A family-focused parent who prioritizes safety, convenience, and value for household purchases.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 6,
+      "tech_savviness": 5,
+      "peer_influence": 7,
+      "ad_trust": 7,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Crypto Enthusiast",
+    "description": "A tech-forward investor who embraces digital currencies and blockchain technology.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 9,
+      "tech_savviness": 9,
+      "peer_influence": 7,
+      "ad_trust": 3,
+      "risk_appetite": 10,
+      "social_class": 7,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Luxury Shopper",
+    "description": "A high-income consumer who values premium brands and exclusive experiences.",
+    "traits": {
+      "money_sensitivity": 2,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 8,
+      "ad_trust": 6,
+      "risk_appetite": 5,
+      "social_class": 9,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Small Business Owner",
+    "description": "An entrepreneurial individual who values practical solutions and return on investment.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 7,
+      "tech_savviness": 7,
+      "peer_influence": 4,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Health & Wellness Enthusiast",
+    "description": "An active lifestyle advocate who prioritizes organic and sustainable products.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 6,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Senior Tech Adopter",
+    "description": "An older adult embracing technology for convenience and staying connected with family.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 5,
+      "tech_savviness": 4,
+      "peer_influence": 5,
+      "ad_trust": 8,
+      "risk_appetite": 2,
+      "social_class": 7,
+      "age_attitude": 3
+    }
+  },
+  {
+    "name": "College Student",
+    "description": "A budget-conscious young adult who is socially active and open to new experiences.",
+    "traits": {
+      "money_sensitivity": 10,
+      "open_mindedness": 9,
+      "tech_savviness": 8,
+      "peer_influence": 9,
+      "ad_trust": 4,
+      "risk_appetite": 6,
+      "social_class": 3,
+      "age_attitude": 10
+    }
+  },
+  {
+    "name": "Working Professional",
+    "description": "A career-focused millennial with disposable income who values efficiency and quality.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 7,
+      "tech_savviness": 8,
+      "peer_influence": 6,
+      "ad_trust": 5,
+      "risk_appetite": 5,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Eco-Conscious Consumer",
+    "description": "An environmentally aware individual willing to pay premium for sustainable products.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 9,
+      "tech_savviness": 6,
+      "peer_influence": 7,
+      "ad_trust": 6,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Bargain Hunter",
+    "description": "An extremely price-sensitive shopper who researches deals extensively before purchasing.",
+    "traits": {
+      "money_sensitivity": 10,
+      "open_mindedness": 5,
+      "tech_savviness": 7,
+      "peer_influence": 5,
+      "ad_trust": 3,
+      "risk_appetite": 3,
+      "social_class": 4,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Fitness Influencer",
+    "description": "A social media savvy individual who promotes lifestyle brands and fitness culture.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 9,
+      "peer_influence": 10,
+      "ad_trust": 4,
+      "risk_appetite": 7,
+      "social_class": 7,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Rural Conservative",
+    "description": "A traditional values-oriented individual who is skeptical of new trends and loyal to established brands.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 3,
+      "tech_savviness": 3,
+      "peer_influence": 4,
+      "ad_trust": 7,
+      "risk_appetite": 2,
+      "social_class": 5,
+      "age_attitude": 3
+    }
+  },
+  {
+    "name": "Tech Executive",
+    "description": "A high-earning technology professional who values innovation and cutting-edge solutions.",
+    "traits": {
+      "money_sensitivity": 3,
+      "open_mindedness": 8,
+      "tech_savviness": 10,
+      "peer_influence": 5,
+      "ad_trust": 4,
+      "risk_appetite": 8,
+      "social_class": 9,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Empty Nester",
+    "description": "A middle-aged parent with grown children who has newfound freedom and spending power.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 6,
+      "tech_savviness": 5,
+      "peer_influence": 5,
+      "ad_trust": 7,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 4
+    }
+  },
+  {
+    "name": "Fashion Forward Millennial",
+    "description": "A style-conscious individual who follows fashion trends and shops frequently online.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 8,
+      "tech_savviness": 8,
+      "peer_influence": 9,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 6,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Blue Collar Worker",
+    "description": "A practical individual who values durability and function over style with modest income.",
+    "traits": {
+      "money_sensitivity": 9,
+      "open_mindedness": 4,
+      "tech_savviness": 4,
+      "peer_influence": 4,
+      "ad_trust": 6,
+      "risk_appetite": 3,
+      "social_class": 4,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "New Parent",
+    "description": "A first-time parent focused on baby products who is safety-conscious and sleep-deprived.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 8,
+      "ad_trust": 6,
+      "risk_appetite": 2,
+      "social_class": 6,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Gaming Streamer",
+    "description": "A content creator who monetizes gaming and is obsessed with the latest technology.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 7,
+      "tech_savviness": 10,
+      "peer_influence": 8,
+      "ad_trust": 3,
+      "risk_appetite": 7,
+      "social_class": 5,
+      "age_attitude": 9
+    }
+  },
+  {
+    "name": "Retirement Planner",
+    "description": "A pre-retiree focused on financial security and conservative investment strategies.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 3,
+      "tech_savviness": 4,
+      "peer_influence": 3,
+      "ad_trust": 8,
+      "risk_appetite": 2,
+      "social_class": 7,
+      "age_attitude": 2
+    }
+  },
+  {
+    "name": "Urban Foodie",
+    "description": "A city dweller passionate about dining experiences and willing to try new cuisines.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 9,
+      "tech_savviness": 7,
+      "peer_influence": 8,
+      "ad_trust": 5,
+      "risk_appetite": 7,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "DIY Enthusiast",
+    "description": "A hands-on individual who enjoys home improvement projects and researches products thoroughly.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 4,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Premium Pet Owner",
+    "description": "A pet lover who treats animals like family and spends heavily on pet products and services.",
+    "traits": {
+      "money_sensitivity": 3,
+      "open_mindedness": 7,
+      "tech_savviness": 6,
+      "peer_influence": 7,
+      "ad_trust": 6,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Minimalist Consumer",
+    "description": "A simplicity-focused individual who buys fewer but higher-quality items with anti-consumption mindset.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 7,
+      "tech_savviness": 6,
+      "peer_influence": 3,
+      "ad_trust": 3,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Travel Blogger",
+    "description": "A digital nomad who documents travel experiences and values experiences over possessions.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 10,
+      "tech_savviness": 9,
+      "peer_influence": 9,
+      "ad_trust": 4,
+      "risk_appetite": 8,
+      "social_class": 6,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Healthcare Professional",
+    "description": "A medical worker with stable income who values evidence-based products and solutions.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 5,
+      "ad_trust": 6,
+      "risk_appetite": 3,
+      "social_class": 8,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Gen X Skeptic",
+    "description": "A middle-aged individual who is cynical about marketing and values authenticity.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 4,
+      "tech_savviness": 5,
+      "peer_influence": 3,
+      "ad_trust": 3,
+      "risk_appetite": 4,
+      "social_class": 6,
+      "age_attitude": 4
+    }
+  },
+  {
+    "name": "Social Media Addict",
+    "description": "An individual constantly online who is influenced by social proof and makes impulse purchases.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 7,
+      "tech_savviness": 8,
+      "peer_influence": 10,
+      "ad_trust": 6,
+      "risk_appetite": 6,
+      "social_class": 5,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Budget-Conscious Family",
+    "description": "A large family that prioritizes value, bulk purchases, and practical needs over luxury.",
+    "traits": {
+      "money_sensitivity": 10,
+      "open_mindedness": 5,
+      "tech_savviness": 5,
+      "peer_influence": 6,
+      "ad_trust": 7,
+      "risk_appetite": 2,
+      "social_class": 4,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Luxury Car Enthusiast",
+    "description": "A high-income individual passionate about premium automotive brands and performance.",
+    "traits": {
+      "money_sensitivity": 2,
+      "open_mindedness": 6,
+      "tech_savviness": 7,
+      "peer_influence": 6,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 9,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Artisanal Craft Lover",
+    "description": "An individual who appreciates handmade, unique products and supports small businesses.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 8,
+      "tech_savviness": 5,
+      "peer_influence": 6,
+      "ad_trust": 6,
+      "risk_appetite": 5,
+      "social_class": 7,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Privacy Advocate",
+    "description": "A highly privacy-conscious individual who uses ad blockers and prefers anonymous transactions.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 7,
+      "tech_savviness": 9,
+      "peer_influence": 2,
+      "ad_trust": 1,
+      "risk_appetite": 3,
+      "social_class": 7,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Impulse Shopper",
+    "description": "An individual who makes spontaneous purchases and is easily influenced by sales and promotions.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 6,
+      "peer_influence": 8,
+      "ad_trust": 7,
+      "risk_appetite": 7,
+      "social_class": 6,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "B2B Decision Maker",
+    "description": "A corporate executive who makes large-scale purchasing decisions for their company.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 6,
+      "tech_savviness": 7,
+      "peer_influence": 4,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 8,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Subscription Service User",
+    "description": "An individual who embraces recurring payments for convenience and subscribes to multiple services.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 8,
+      "tech_savviness": 8,
+      "peer_influence": 6,
+      "ad_trust": 6,
+      "risk_appetite": 6,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Frugal Retiree",
+    "description": "A fixed-income senior citizen who carefully considers every purchase and values tradition.",
+    "traits": {
+      "money_sensitivity": 10,
+      "open_mindedness": 2,
+      "tech_savviness": 3,
+      "peer_influence": 4,
+      "ad_trust": 7,
+      "risk_appetite": 1,
+      "social_class": 5,
+      "age_attitude": 1
+    }
+  },
+  {
+    "name": "Gig Economy Worker",
+    "description": "A freelancer with irregular income who values flexibility and cost-effectiveness.",
+    "traits": {
+      "money_sensitivity": 9,
+      "open_mindedness": 7,
+      "tech_savviness": 8,
+      "peer_influence": 5,
+      "ad_trust": 4,
+      "risk_appetite": 6,
+      "social_class": 5,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Gadget Early Adopter",
+    "description": "An individual who always buys the latest tech gadgets and devices as soon as they're released.",
+    "traits": {
+      "money_sensitivity": 3,
+      "open_mindedness": 9,
+      "tech_savviness": 10,
+      "peer_influence": 6,
+      "ad_trust": 5,
+      "risk_appetite": 9,
+      "social_class": 8,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Brand Loyalist",
+    "description": "An individual who sticks to trusted brands, is resistant to switching, and values consistency.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 3,
+      "tech_savviness": 5,
+      "peer_influence": 4,
+      "ad_trust": 8,
+      "risk_appetite": 2,
+      "social_class": 6,
+      "age_attitude": 4
+    }
+  },
+  {
+    "name": "Sustainable Fashion Advocate",
+    "description": "An individual conscious about fashion industry impact who buys ethically-made clothing.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 9,
+      "tech_savviness": 7,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Investment Newcomer",
+    "description": "A young professional just starting to invest and learning about financial products.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 8,
+      "tech_savviness": 7,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 5,
+      "social_class": 6,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Local Business Supporter",
+    "description": "An individual who prefers shopping at local establishments over chains and is community-focused.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 6,
+      "tech_savviness": 4,
+      "peer_influence": 6,
+      "ad_trust": 7,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Busy Executive",
+    "description": "A time-poor, high-income professional who values convenience and premium services.",
+    "traits": {
+      "money_sensitivity": 2,
+      "open_mindedness": 5,
+      "tech_savviness": 7,
+      "peer_influence": 4,
+      "ad_trust": 6,
+      "risk_appetite": 5,
+      "social_class": 9,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Millennial Parent",
+    "description": "A tech-savvy parent balancing career and family who researches products online extensively.",
+    "traits": {
+      "money_sensitivity": 7,
+      "open_mindedness": 7,
+      "tech_savviness": 8,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Value Seeker",
+    "description": "A middle-income consumer who balances quality and price, comparing options extensively.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 5,
+      "ad_trust": 5,
+      "risk_appetite": 4,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Outdoor Adventure Enthusiast",
+    "description": "An active lifestyle devotee who invests in quality outdoor gear and experiences.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 7,
+      "tech_savviness": 6,
+      "peer_influence": 6,
+      "ad_trust": 6,
+      "risk_appetite": 7,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Smart Home Enthusiast",
+    "description": "An individual who embraces home automation technology and values connectivity and efficiency.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 9,
+      "peer_influence": 5,
+      "ad_trust": 5,
+      "risk_appetite": 7,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Nostalgic Consumer",
+    "description": "An individual drawn to retro and vintage products who values tradition and heritage brands.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 4,
+      "tech_savviness": 4,
+      "peer_influence": 5,
+      "ad_trust": 7,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 3
+    }
+  },
+  {
+    "name": "Status-Conscious Professional",
+    "description": "A career-driven individual who buys products that enhance their professional image.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 6,
+      "tech_savviness": 7,
+      "peer_influence": 8,
+      "ad_trust": 6,
+      "risk_appetite": 5,
+      "social_class": 8,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Content Creator",
+    "description": "An individual who produces digital content, monetizes their audience, and needs creation tools.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 8,
+      "tech_savviness": 9,
+      "peer_influence": 9,
+      "ad_trust": 4,
+      "risk_appetite": 7,
+      "social_class": 6,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Cryptocurrency Day Trader",
+    "description": "A high-risk investor who trades digital currencies frequently and lives on market volatility.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 8,
+      "tech_savviness": 10,
+      "peer_influence": 6,
+      "ad_trust": 2,
+      "risk_appetite": 10,
+      "social_class": 7,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Homeschooling Parent",
+    "description": "A dedicated parent focused on children's education who researches educational products extensively.",
+    "traits": {
+      "money_sensitivity": 8,
+      "open_mindedness": 6,
+      "tech_savviness": 6,
+      "peer_influence": 6,
+      "ad_trust": 6,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 5
+    }
+  },
+  {
+    "name": "Vintage Collector",
+    "description": "An individual passionate about antiques and collectibles who values rarity and historical significance.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 6,
+      "tech_savviness": 3,
+      "peer_influence": 4,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 7,
+      "age_attitude": 4
+    }
+  },
+  {
+    "name": "Remote Work Nomad",
+    "description": "A location-independent professional who works from anywhere and values portability.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 9,
+      "tech_savviness": 9,
+      "peer_influence": 6,
+      "ad_trust": 4,
+      "risk_appetite": 7,
+      "social_class": 6,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Wellness Coach",
+    "description": "A health and fitness professional who promotes holistic lifestyle approaches.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 7,
+      "peer_influence": 8,
+      "ad_trust": 5,
+      "risk_appetite": 5,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Competitive Gamer",
+    "description": "A professional esports player who invests heavily in gaming equipment and performance.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 7,
+      "tech_savviness": 10,
+      "peer_influence": 7,
+      "ad_trust": 4,
+      "risk_appetite": 7,
+      "social_class": 6,
+      "age_attitude": 9
+    }
+  },
+  {
+    "name": "Single Urban Professional",
+    "description": "A young city dweller with disposable income who values convenience and experiences.",
+    "traits": {
+      "money_sensitivity": 5,
+      "open_mindedness": 8,
+      "tech_savviness": 8,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 7,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Craft Beer Enthusiast",
+    "description": "An individual who appreciates artisanal brewing and is willing to pay premium for unique flavors.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 8,
+      "tech_savviness": 6,
+      "peer_influence": 7,
+      "ad_trust": 5,
+      "risk_appetite": 6,
+      "social_class": 7,
+      "age_attitude": 7
+    }
+  },
+  {
+    "name": "Mindfulness Practitioner",
+    "description": "An individual focused on mental wellness, meditation, and stress reduction products and services.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 8,
+      "tech_savviness": 5,
+      "peer_influence": 5,
+      "ad_trust": 6,
+      "risk_appetite": 3,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  },
+  {
+    "name": "Extreme Sports Athlete",
+    "description": "An adrenaline seeker who participates in high-risk sports and values performance gear.",
+    "traits": {
+      "money_sensitivity": 4,
+      "open_mindedness": 7,
+      "tech_savviness": 6,
+      "peer_influence": 6,
+      "ad_trust": 5,
+      "risk_appetite": 10,
+      "social_class": 7,
+      "age_attitude": 8
+    }
+  },
+  {
+    "name": "Sustainable Living Advocate",
+    "description": "A zero-waste lifestyle follower who prioritizes environmental impact in all purchases.",
+    "traits": {
+      "money_sensitivity": 6,
+      "open_mindedness": 9,
+      "tech_savviness": 6,
+      "peer_influence": 6,
+      "ad_trust": 4,
+      "risk_appetite": 4,
+      "social_class": 6,
+      "age_attitude": 6
+    }
+  }
+]
